@@ -16,7 +16,6 @@ import { CalendarIcon, CheckCircle2Icon, ClockIcon, XCircleIcon } from "lucide-r
 import { format } from "date-fns";
 import CommentDialog from "@/components/CommentDialog";
 
-
 type Interview = Doc<"interviews">;
 
 function DashboardPage() {

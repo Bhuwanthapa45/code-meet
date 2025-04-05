@@ -22,6 +22,7 @@ export default defineSchema({
   })
     .index("by_candidate_id", ["candidateId"])
     .index("by_stream_call_id", ["streamCallId"]),
+
   comments: defineTable({
     content: v.string(),
     rating: v.number(),
